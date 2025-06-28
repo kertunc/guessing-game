@@ -1,24 +1,24 @@
-# 🎯 Sayı Tahmin Oyunu – C++
+# 🎯 Number Guessing Game – C++
 
-Bu küçük ama eğlenceli C++ uygulaması, rastgele tutulan bir sayıyı kullanıcıya tahmin ettirmeyi amaçlar.  
-Her tahminden sonra yönlendirme yapılır: `"Daha büyük gir"`, `"Daha küçük gir"` gibi.  
-Kullanıcı doğru tahmin yaptığında toplam deneme sayısı da ekranda gösterilir.
-
----
-
-## 🧠 Özellikler
-
-- 1 ile 100 arasında rastgele sayı üretir
-- Kullanıcıdan sürekli tahmin alır
-- Her tahminde yönlendirme yapar
-- Doğru tahminde kullanıcıyı tebrik eder
-- Deneme sayısını sayar ve gösterir
+This is a simple yet fun C++ console application where the user tries to guess a randomly generated number between 1 and 100.  
+After each guess, the program provides hints such as `"Try a higher number"` or `"Try a lower number"`.  
+Once the correct number is guessed, the program displays a success message and the total number of attempts.
 
 ---
 
-## 📌 Nasıl Kullanılır
+## 🧠 Features
 
-1. Kod bir C++ derleyicisi ile derlenir:
+- Random number generation between 1 and 100
+- Takes repeated user input until correct guess
+- Provides guidance after each guess
+- Displays number of attempts
+- Clean and simple structure using `do-while` loop and conditionals
+
+---
+
+## 📌 How to Use
+
+1. Compile the code using a C++ compiler:
    ```bash
-   g++ sayi_tahmin.cpp -o sayi_tahmin
-   ./sayi_tahmin
+   g++ number_guessing.cpp -o number_guessing
+   ./number_guessing
